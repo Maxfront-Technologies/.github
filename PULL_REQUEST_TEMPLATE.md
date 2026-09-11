@@ -6,10 +6,6 @@
 
 ### Related Work
 
-**Related Issue / Ticket:**
-
-<!-- e.g. #123 -->
-
 **Related API PR:**
 
 <!-- Link the API PR if applicable. Use N/A if none. -->
@@ -33,20 +29,6 @@
 * [ ] New migration included
 * [ ] Existing migration modified
 * [ ] Data migration / backfill required
-* [ ] Stored procedure / function / view changed
-* [ ] Database indexes changed
-
-**Database notes:**
-
-<!--
-Describe:
-- tables/columns affected
-- migration name
-- whether migration is backward compatible
-- whether existing data needs to be migrated
--->
-
----
 
 ### Configuration
 
@@ -120,18 +102,7 @@ Describe:
 * [ ] Integration tests added / updated
 * [ ] Existing automated tests pass
 * [ ] Manual testing completed
-* [ ] API tested independently
-* [ ] UI tested with the related API changes
 * [ ] Permission / role scenarios tested
-* [ ] Relevant edge cases tested
-
-### Manual Test Steps
-
-1.
-2.
-3.
-
----
 
 ## Deployment / Release Impact
 
