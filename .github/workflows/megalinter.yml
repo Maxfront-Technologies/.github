@@ -1,5 +1,7 @@
 name: Organization MegaLinter
 
+# See. https://github.com/oxsecurity/megalinter/blob/main/.mega-linter.yml for env variables and their default values.
+
 on:
   pull_request:
   merge_group:
