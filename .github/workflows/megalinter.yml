@@ -4,6 +4,13 @@ name: Organization MegaLinter
 
 on:
   pull_request:
+    branches:
+      - dev
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
   merge_group:
   workflow_dispatch:
 
