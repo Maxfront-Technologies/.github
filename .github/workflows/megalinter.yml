@@ -31,8 +31,9 @@ jobs:
           APPLY_FIXES: none
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BRANCH: ${{ github.event.pull_request.base.ref }}
           REPORTERS_MARKDOWN_SUMMARY_TYPE: table-sections
-          GITHUB_STATUS_REPORTER: true
+          GITHUB_STATUS_REPORTER: false
           DISABLE: COPYPASTE,SPELL
           POST_GITHUB_COMMENT: true
           ENABLE: CSHARP,CSS,TYPESCRIPT,JAVASCRIPT,API,DOCKERFILE,EDITORCONFIG,ENV,HTML
